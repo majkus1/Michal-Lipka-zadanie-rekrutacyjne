@@ -1,0 +1,81 @@
+body {
+	background-color: #dad1b4;
+}
+
+.cartsall {
+	margin-top: 30px;
+}
+
+.cartsall p {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+h1 {
+	padding: 12px;
+	font-size: 35px;
+	background-color: white;
+	-webkit-box-shadow: -1px 6px 24px -10px rgba(66, 68, 90, 1);
+	-moz-box-shadow: -1px 6px 24px -10px rgba(66, 68, 90, 1);
+	box-shadow: -1px 6px 24px -10px rgba(66, 68, 90, 1);
+}
+
+button {
+	font-size: 14px;
+	margin-left: 35px;
+	padding: 8px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+button:hover {
+	background-color: gray;
+	color: white;
+	-webkit-box-shadow: -1px 6px 24px -10px rgba(66, 68, 90, 1);
+	-moz-box-shadow: -1px 6px 24px -10px rgba(66, 68, 90, 1);
+	box-shadow: -1px 6px 24px -10px rgba(66, 68, 90, 1);
+}
+
+form {
+	margin: 30px;
+}
+
+form .prodform {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+form .add .addbtn {
+    background-color: black;
+    color: wheat;
+	width: 200px;
+    border: none;
+}
+
+@media (min-width: 992px) {
+	.chart-container {
+		margin: 45px;
+		height: 50vh;
+		width: 70%;
+	}
+    form {
+        width: 900px;
+    }
+	form .prodform {
+        display: flex;
+        flex-direction: row;
+		margin-bottom: 30px;
+	}
+	form .prodform label {
+		margin-left: 18px;
+	}
+	form .prodform label input {
+		margin-left: 3px;
+	}
+    form .add {
+        display: flex;
+        justify-content: start;
+        margin-left: 330px;
+    }
+}
